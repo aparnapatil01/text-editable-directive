@@ -13,7 +13,7 @@ editableDirective.directive('editable', function(){
 		'<div>' +
 		'<u><span class="editable-text" ng-transclude></span></u>' +
 		'<div ng-show="editForm">' +
-		'<form name="form" novalidate>' +
+		'<form name="form" class="form-style" novalidate>' +
 		'<div class="form-group">' +
 		'<label for="\'{{id}}\'">{{label}}</label>' +
 		'<input type="text" ng-model="editText" id="\'{{id}}\'" class="form-control" name="editInput" ng-maxlength="15" ng-minlength="3" required>' +

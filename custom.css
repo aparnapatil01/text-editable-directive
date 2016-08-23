@@ -1,0 +1,11 @@
+body{
+  margin:5px;
+}
+
+.form-style {
+  width: 200px;
+  border: 1px solid #ccc;
+  padding: 10px 7px;
+  border-radius: 4px;
+  margin-top: 5px;
+}
