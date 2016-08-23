@@ -9,8 +9,7 @@ editableDirective.directive('editable', function(){
 			id:'@'
 		},
 		transclude:true,
-		template:'' +
-		'<div>' +
+		template:'<div>' +
 		'<u><span class="editable-text" ng-transclude></span></u>' +
 		'<div ng-show="editForm">' +
 		'<form name="form" class="form-style" novalidate>' +
