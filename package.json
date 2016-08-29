@@ -1,0 +1,25 @@
+{
+  "name": "text-editable",
+  "version": "1.0.0",
+  "description": "Directive to edit the text",
+  "main": "script.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/aparnapatil01/text-editable-directive.git"
+  },
+  "keywords": [
+    "angular",
+    "edit",
+    "text",
+    "directive"
+  ],
+  "author": "aparnap <aparna.well@gmail.com>",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/aparnapatil01/text-editable-directive/issues"
+  },
+  "homepage": "https://github.com/aparnapatil01/text-editable-directive#readme"
+}
