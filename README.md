@@ -4,15 +4,27 @@
 This repo consists of an angularJs directive which is used to edit the text.
 
 ## Install
-You can install this package using bower.
+#### Bower
 
 
 ```
 bower install text-editable
 ```
-Then add a `<script>` tag to your `index.html` file
+Then add a `<script>` and `<link>` tag to your `index.html` file
 ```html
 <script src="bower_components/text-editable-directive/script.js"></script>
+<link rel="stylesheet" href="bower_components/text-editable-directive/custom.css">
+```
+#### Npm
+
+
+```
+npm install text-editable
+```
+Then add a `<script>` and `<link>` tag to your `index.html` file
+```html
+<script src="node_modules/text-editable/script.js"></script>
+<link rel="stylesheet" href="node_modules/text-editable/custom.css">
 ```
 ## Inject Module Dependency
 Inject `directive.editable` module
