@@ -13,7 +13,7 @@ bower install text-editable
 Then add a `<script>` and `<link>` tag to your `index.html` file
 ```html
 <script src="bower_components/text-editable-directive/script.js"></script>
-<link rel="stylesheet" href="bower_components/text-editable-directive/custom.css">
+<link rel="stylesheet" href="bower_components/text-editable-directive/css/custom.css">
 ```
 #### Npm
 
@@ -24,7 +24,7 @@ npm install text-editable
 Then add a `<script>` and `<link>` tag to your `index.html` file
 ```html
 <script src="node_modules/text-editable/script.js"></script>
-<link rel="stylesheet" href="node_modules/text-editable/custom.css">
+<link rel="stylesheet" href="node_modules/text-editable/css/custom.css">
 ```
 ## Inject Module Dependency
 Inject `directive.editable` module
