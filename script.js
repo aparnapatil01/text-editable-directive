@@ -30,12 +30,16 @@ editableDirective.directive('editable', function(){
 			scope.editForm=false;
 			// Get Element for adding styles
 			var spanElement = element.find('span'),
-			    form = element.find('form');
+			    form = element.find('form'),
+			    input = element.find('input');
 	        
 			// Add class
 		  	form.addClass(attrs.formStyle);
 		  
 			spanElement.bind('click', function(){
+				// Auto Focus
+				input[0].focus();
+				
 				scope.$apply(scope.editForm=true);
 				scope.editText = angular.copy(scope.model);
 			});
