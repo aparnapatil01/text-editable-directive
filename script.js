@@ -10,9 +10,9 @@ editableDirective.directive('editable', function(){
 		},
 		transclude:true,
 		template:`
-		<div> 
+		<div id="main-container"> 
 			<u><span class="editable-text" ng-transclude></span></u> 
-			<div ng-show="editForm"> 
+			<div ng-show="editForm" id="inner-container"> 
 				<form name="form" class="form-style" novalidate> 
 					<div class="form-group"> 
 						<label for="{{id}}">{{label}}</label> 
