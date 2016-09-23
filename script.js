@@ -1,7 +1,7 @@
 var editableDirective = angular.module('directive.editable', []);
 editableDirective.directive('editable', function(){
 	return{
-		restrict:'E',
+		restrict:'A',
 		scope:{
 			model:'=',
 			label:'@text',

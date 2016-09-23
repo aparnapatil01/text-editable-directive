@@ -37,10 +37,10 @@ var app = angular.module("myApp", ["directive.editable"]);
 
 ## How to use
 
-1. To use this directive add `editable` tag.
+1. To use this directive add `editable` attribute to the element.
 
 ```html
-<editable text="label" id="name" save="save(editedText)" model="name" >{{name}}</editable>
+<span editable text="label" id="name" save="save(editedText)" model="name" >{{name}}</span>
 ```
 
 2. Add the required label to the text attribute, model attribute reflects the ng-model of angular. 
